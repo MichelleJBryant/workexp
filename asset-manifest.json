@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/workexp/static/css/main.e6c13ad2.css",
+    "main.js": "/workexp/static/js/main.7e9104ba.js",
+    "static/js/787.f76c58b7.chunk.js": "/workexp/static/js/787.f76c58b7.chunk.js",
+    "static/media/mobile_app.png": "/workexp/static/media/mobile_app.8ff0a2d178763c05d3d1.png",
+    "static/media/axios.cjs": "/workexp/static/media/axios.1625a2be6a566dade312.cjs",
+    "index.html": "/workexp/index.html",
+    "main.e6c13ad2.css.map": "/workexp/static/css/main.e6c13ad2.css.map",
+    "main.7e9104ba.js.map": "/workexp/static/js/main.7e9104ba.js.map",
+    "787.f76c58b7.chunk.js.map": "/workexp/static/js/787.f76c58b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7e9104ba.js"
+  ]
+}
