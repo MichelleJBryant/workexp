@@ -1,28 +1,92 @@
-import { Container, Heading, Text, View } from "@go1d/go1d";
+import React from 'react';
+import { Container, Heading, View, ButtonFilled, ButtonMinimal } from "@go1d/go1d";
+import go1Logo from "./go1.png";
+import go1Image from "./go1Icon.png";
 
 const Landing = () => {
   return (
+    
     <Container
       backgroundColor="accent"
       height="100vh"
-      alignItems="center"
-      flexDirection="row"
+      flex-wrap="wrap"
     >
-      <View width="50%" alignItems="center">
-        <Heading>Learn on the go with Go1 mobile.</Heading>
-        <Text>
-          Complete your learning and upskill your career with mobile learning
-          anywhere, anytime.
-        </Text>
-      </View>
+      <View
+      flexDirection={"row"}
+        marginTop={5}
+        marginLeft={8}
+        justifyContent="space-between"
+        >
+        <img 
+          src={go1Logo} 
+          height={"auto"} 
+          width={90} 
+        />
 
-      <View width="50%">
-        <img
-          src={
-            "https://cdn.go1static.com/assets/go1d-static-assets/images/go1d-illustration-teams-upskilling.svg"
-          }
-        ></img>
+        <ButtonMinimal
+        color ="soft"
+        width = "20%"
+        >
+          Login
+        </ButtonMinimal>
       </View>
+    <View
+      flexDirection={"row"}
+      >
+        <View
+          marginTop={10}
+          maxWidth={580}
+          marginLeft={8}
+          >
+          <Heading
+            color="soft"
+            semanticElement="h1"
+            visualHeadingLevel="Heading 1"
+            >
+              Learn on the go with Go1 mobile.
+          </Heading>
+          <Heading
+            semanticElement="h4"
+            visualHeadingLevel="Heading 4"
+            color="delicate"
+            marginTop={3}
+            >
+              Complete your learning and upskill your career with mobile learning
+              anywhere, anytime.
+          </Heading>
+          <View
+          paddingTop ="20"
+          alignItems ="flex-start"
+          flexDirection="row"
+          >
+            <ButtonFilled
+              color="complementary"
+              width="30%"
+            >
+              Get on Play Store
+            </ButtonFilled>
+              <ButtonFilled
+                color="complementary"
+                width="30%"
+                marginLeft={5}
+              >
+                Get on App Store
+              </ButtonFilled>
+
+          </View>
+
+        </View>
+
+      <View 
+        width="40%"
+        
+        >
+        <img
+          src={go1Image}
+        />
+      </View>
+    </View>
+
     </Container>
   );
 };
