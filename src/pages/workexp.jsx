@@ -2,6 +2,10 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import { Container, Heading, Text, View, Carousel} from "@go1d/go1d";
 import laptopPerson from "./go1d-laptop-illistration.svg";
+import prototypeDesign from "./PrototypeSuggestedFeatureForMobile.png";
+import design from "./Refined Suggested Feature.png";
+import landingPage from "./go1IconPhoneThing.png";
+import aboutPage from "./Go1MobileThing.PNG";
 
 const WorkExp = () => {
   return (
@@ -38,9 +42,9 @@ const WorkExp = () => {
 
         <View
         flexDirection={"row"}
-        marginLeft={"340"}
+        marginLeft={"350"}
         justifyContent={"space-between"}
-        marginRight={"340"}
+        marginRight={"350"}
         >
           <View
           backgroundColor={"accentLow"}
@@ -52,7 +56,7 @@ const WorkExp = () => {
               fontSize ={"5"}
               color={"soft"}
             >
-              Garyson’s Reflection:
+              Garyson's Reflection:
             </Heading>
 
             <Text
@@ -69,11 +73,10 @@ In my time at Go1 I had wrote a report about the features possiblely desired in 
           <View
           >
             <ReactPlayer
-              borderRadius={"3"}
-              url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+              url='https://www.youtube.com/watch?v=ILulMm6q7vE'
               />
-
           </View>
+
         </View>
 
       </View>
@@ -94,10 +97,55 @@ In my time at Go1 I had wrote a report about the features possiblely desired in 
             minWidth={150}
             width= {'100%'}
             borderRadius={"3"}
+            flexDirection={"row"}
           >
-            <Heading>
-              the
-            </Heading>
+            <View
+              flexDirection={"column"}
+              marginTop={"3"}
+              marginLeft={"7"}
+              maxWidth={"300"}
+              
+            >
+              <Heading
+                marginLeft={"70"}
+                fontSize={"7"}
+                color={"soft"}
+              >
+                Design!
+              </Heading>
+
+              <Text
+                marginTop={"70"}
+                color={"soft"}
+                fontSize={"3"}
+              >
+                Challange yourself, reachout of your comfort zone and DESIGN!
+              </Text>
+
+            </View>
+
+            <View
+            justifyContent={"center"}
+            marginLeft={"130"}
+            >
+              <img
+              src={prototypeDesign}
+              width={"400"}
+              height={"auto"}
+              />
+            </View>
+
+            <View
+            justifyContent={"center"}
+            marginLeft={"120"}
+            >
+              <img
+              src={design}
+              width={"200"}
+              height={"auto"}
+              />
+            </View>
+
           </View>
 
           <View
@@ -107,30 +155,58 @@ In my time at Go1 I had wrote a report about the features possiblely desired in 
             minWidth={150}
             width= {'100%'}
             borderRadius={"3"}
+            flexDirection={"row"}
           >
-          </View>
+            <View
+              flexDirection={"column"}
+              marginTop={"3"}
+              maxWidth={"300"}
+              marginLeft={"67"}
+            >
+              <Heading
+                fontSize={"6"}
+                color={"soft"}
+              >
+                Engineering!
+              </Heading>
 
-          <View
-            backgroundColor="accentLow"
-            height={300}
-            maxWidth={"100%"}
-            minWidth={150}
-            width= {'100%'}
-            borderRadius={"3"}
-          >
-          </View>
+              <Text
+                marginTop={"70"}
+                color={"soft"}
+                fontSize={"3"}
+              >
+                Why not make a website??
+              </Text>
 
-          <View
-            backgroundColor="accentLow"
-            height={300}
-            maxWidth={"100%"}
-            minWidth={150}
-            width= {'100%'}
-            borderRadius={"3"}
-          >
+            </View>
+
+            
+            <View
+            justifyContent={"center"}
+            marginLeft={"60"}
+            >
+              <img
+              src={landingPage}
+              width={"350"}
+              height={"auto"}
+              />
+            </View>
+
+            <View
+            justifyContent={"center"}
+            marginLeft={"60"}
+            >
+              <img
+              src={aboutPage}
+              width={"350"}
+              height={"auto"}
+              />
+            </View>
+
           </View>
 
         </Carousel>
+
       </View>
 
     </Container>
