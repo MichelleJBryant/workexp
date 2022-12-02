@@ -69,6 +69,7 @@ In my time at Go1 I had wrote a report about the features possiblely desired in 
           <View
           >
             <ReactPlayer
+              borderRadius={"3"}
               url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
               />
 
@@ -87,42 +88,48 @@ In my time at Go1 I had wrote a report about the features possiblely desired in 
         width={1920}
         >
           <View
-            css={{
-              backgroundColor: '#7732bb',
-              height: 300,
-              maxWidth: '100%',
-              minWidth: 150,
-              width: '100%',
-            }}
-          />
+            backgroundColor="accentLow"
+            height={300}
+            maxWidth={"100%"}
+            minWidth={150}
+            width= {'100%'}
+            borderRadius={"3"}
+          >
+            <Heading>
+              the
+            </Heading>
+          </View>
 
           <View
-            css={{
-              backgroundColor: '#047cc0',
-              height: 300,
-              maxWidth: '100%',
-              minWidth: 150,
-              width: '100%',
-            }}
-          />
+            backgroundColor="accentLow"
+            height={300}
+            maxWidth={"100%"}
+            minWidth={150}
+            width= {'100%'}
+            borderRadius={"3"}
+          >
+          </View>
+
           <View
-            css={{
-              backgroundColor: '#e3bc13',
-              height: 300,
-              maxWidth: '100%',
-              minWidth: 150,
-              width: '100%',
-            }}
-          />
+            backgroundColor="accentLow"
+            height={300}
+            maxWidth={"100%"}
+            minWidth={150}
+            width= {'100%'}
+            borderRadius={"3"}
+          >
+          </View>
+
           <View
-            css={{
-              backgroundColor: '#db7c00',
-              height: 300,
-              maxWidth: '100%',
-              minWidth: 150,
-              width: '100%',
-            }}
-          />
+            backgroundColor="accentLow"
+            height={300}
+            maxWidth={"100%"}
+            minWidth={150}
+            width= {'100%'}
+            borderRadius={"3"}
+          >
+          </View>
+
         </Carousel>
       </View>
 
